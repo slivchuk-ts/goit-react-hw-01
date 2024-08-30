@@ -1,0 +1,21 @@
+.friendsImage{
+margin-bottom: 20 px;
+}
+
+.friendsText{
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+.friendsStatus{
+font-weight: 900;
+}
+
+.green{
+color: green;
+}
+
+.red{
+color: red;
+}

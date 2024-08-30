@@ -1,0 +1,74 @@
+.profile{
+max-width: 400px;
+width: 100%;
+margin: 0 auto;
+background-color: #f9f9f9;
+border: 1px solid #212121;
+border-radius: 8px;
+text-align: center;
+margin-bottom: 90px;
+}
+
+.image {
+width: 200px;
+border-radius: 50%;
+margin-bottom: 15px;
+background-color: #2a2a2a;
+
+}
+
+.card {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 28px;
+}
+
+.userName {
+font-size: 24px;
+font-weight: 700;
+color: #000;
+margin-bottom: 5px;
+margin-top: 0;
+}
+
+.text {
+font-size: 16px;
+color: #7d7d7d;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+
+
+.socList {
+display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    padding: 0;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #808080;
+}
+
+.socItem {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid #808080;
+    width: 33%;
+}
+.socItem:last-child {
+    border-right: 0;
+}
+
+/* .socItem:nth-child(2) {
+border-left: 3px solid lightgrey;
+border-right: 3px solid lightgrey;
+} */
+
+.sum {
+font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
