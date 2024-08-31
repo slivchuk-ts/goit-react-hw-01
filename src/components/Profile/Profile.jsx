@@ -15,15 +15,15 @@ alt={name}
 
 <ul className={s.socList}>
 <li className={s.socItem}>
-<span>Followers</span>
+<span className={s.spanText}>Followers</span>
 <span className={s.sum}>{stats.followers}</span>
 </li>
 <li className={s.socItem}>
-<span>Views</span>
+<span className={s.spanText}>Views</span>
 <span className={s.sum}>{stats.views}</span>
 </li>
 <li className={s.socItem}>
-<span>Likes</span>
+<span className={s.spanText}>Likes</span>
 <span className={s.sum}>{stats.likes}</span>
 </li>
 </ul>
